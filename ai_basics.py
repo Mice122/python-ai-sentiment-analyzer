@@ -3,7 +3,7 @@ AI Engineering Fundamentals: Basic Single-Neuron Prediction Model
 Demonstrates how AI models multiply input features by weight to make a prediction.
 """
 
-def predict_house_prices(size_sqft: float) -> float: 
+def predict_house_price(size_sqft: float) -> float: 
      # Simulated AI model Parameters (Weight and Bias)
       weight = 150.0 # Estimated price increase per square foot
        bias = 25000.0 # Base starting price
