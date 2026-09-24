@@ -45,5 +45,5 @@ if __name__ == "__main__":
    print("---AI Sentiment Analysis Demo ---")
    for headline in headlines:
         result = analyze_sentiment(headline)  
-        print(f"\nTEXT: \"{result['text']}\"")
-        print(f"Result: {result['sentiment']} | Confindence: {result['confidenc_score']}")
+        print(f"\nTEXT: {result['text']}")
+        print(f"Result: {result['sentiment']} | Confidence: {result['confidence_score']}")
