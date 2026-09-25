@@ -46,4 +46,4 @@ if __name__ == "__main__":
    for headline in headlines:
         result = analyze_sentiment(headline)  
         print(f"\nTEXT: {result['text']}")
-        print(f"Result: {result['sentiment']} | Confidence: {result['confidence_score']}")
+        
